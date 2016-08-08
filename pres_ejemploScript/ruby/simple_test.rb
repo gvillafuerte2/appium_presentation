@@ -6,13 +6,13 @@ require 'rubygems'
 require 'appium_lib'
 
 #  DESIRED CAPABILITIES
-APP_PATH = '../../../../Library/Developer/Xcode/DerivedData/TestApp/Build/Products/Debug-iphonesimulator/TestApp.app'
+APP_PATH = '../../../../gvillafuerte/sample-code/sample-code/apps/TestApp/build/release-iphonesimulator/TestApp.app'
 
 desired_caps = {
   caps:       {
     platformName:  'ios',
-    versionNumber: '8.1',
-    deviceName:    'iPhone 6',
+    versionNumber: '9.3',
+    deviceName:    'iPhone 5',
     app:           APP_PATH,
   },
 }
